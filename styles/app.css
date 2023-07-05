@@ -1,0 +1,128 @@
+body {
+    font-family: Georgia;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 48px;
+}
+
+header .nav {
+    width: 120px;
+}
+
+header .nav a {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+header .avatar {
+    width: 40px;
+}
+
+header .avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+main .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .logo {
+    height: 250px;
+    text-align: center;
+    display: inline-block;
+}
+
+main .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 700px;
+}
+
+main .rid input {
+    height: 30px;
+    width: 600px;
+    text-align: center;
+    display: inline-block;
+    border: none;
+}
+
+main .buscar img {
+    position: absolute;
+    top: 39%;
+    left: 12%;
+    display: flex;
+    height: 15px;
+    width: 15px;
+
+}
+
+main .xas {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 20px;
+}
+
+main .botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .botones button {
+    display: flex;
+    height: 30px;
+    width: 150px;
+    border: 1px solid #f8f9fa;
+    margin: 11px 4px;
+    padding: 0 16px;
+    border-radius: 4px;
+    font-family: Arial;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #202124;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+}
+
+footer .card,
+.cord {
+    height: 60px;
+    background-color: #dfe1e5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer .cord {
+    width: 60%;
+}
+
+footer .card {
+    width: 40%;
+}
